@@ -38,7 +38,7 @@ const AddContact = () => {
     const checknumber = Contacts.find(
       (contact) => contact.number === number
     );
-console.log(checknumber, "---checknumber---");
+// console.log(checknumber, "---checknumber---");
     // console.log(checkEmail);
 
     if (!email || !number || !name) {

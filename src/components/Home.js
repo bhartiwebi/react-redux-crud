@@ -35,7 +35,7 @@ const Home = () => {
             <tbody>
               {Contacts.map((contact, id) => (
                 <tr key={id}>
-                  <td>{id + 1}</td>
+                  <td>{contact.id}</td>
                   <td>{contact.name}</td>
                   <td>{contact.email}</td>
                   <td>{contact.number}</td>
